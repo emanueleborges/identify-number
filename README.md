@@ -5,6 +5,11 @@ bem como realizar o **controle completo dos veículos cadastrados**, com autenti
 
 ---
 
+Regra:
+Se placa do veículo identificado não estiver no Cadastro de Veículos, cadastrar automaticamente placa e data do cadastro automatico. registrar tambem sua entrada com data e hora automatico.
+Se placa do veiculo não identificado Cadastrar Manualmente no Cadastro de Veículos, cadastrar com placa e data do cadastro automatico. registrar tambem sua entrada com data e hora automatico.
+---
+
 ## 🔧 Funcionalidades
 
 ### 📸 Reconhecimento de Placa via OCR
