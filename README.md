@@ -10,7 +10,7 @@ bem como realizar o **controle completo dos veículos cadastrados**, com autenti
 - Se placa do veiculo não identificado, Cadastrar Manualmente no Cadastro de Veículos, cadastrar com dados: Placa e data e hora do cadastro automatico. registrar tambem sua entrada com data e hora automatico.
 
 
-campo Placa (AAA9A99) -> Validar entrada para A: String e 9 -> Numérico
+campo Placa (AAA9999) ou (AAA9A99) -> Validar entrada para A: String e 9 -> Numérico
 campo Data e Hora (hh:mm:ss dd/mm/yyyy) 
 
 ---
