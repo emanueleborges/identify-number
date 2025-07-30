@@ -8,7 +8,7 @@ bem como realizar o **controle completo dos veículos cadastrados**, com autenti
 - Se placa do veículo identificado e se não estiver no Cadastro de Veículos, cadastrar automaticamente com os dados: Placa  e data e hora do cadastro automatico. registrar tambem sua entrada com data e hora automatico.
 - Se placa do veículo identificado e se estiver no Cadastro de Veículos, registrar sua entrada com data e hora automatico.
 - Se placa do veiculo não identificado, Cadastrar Manualmente no Cadastro de Veículos, cadastrar com dados: Placa e data e hora do cadastro automatico. registrar tambem sua entrada com data e hora automatico.
-- Identificar se é moto, carro, outros 
+- Identificar veiculo se é moto, carro, outros 
 
 campo Placa (AAA9999) ou (AAA9A99) -> Validar entrada para A: String e 9 -> Numérico
 campo Data e Hora (hh:mm:ss dd/mm/yyyy) 
@@ -45,3 +45,5 @@ campo Data e Hora (hh:mm:ss dd/mm/yyyy)
 - SQLite (pode ser substituído por PostgreSQL)
 - JWT (via PyJWT)
 - OCR com EasyOCR + OpenCV
+- ORM
+- Boas Práticas
